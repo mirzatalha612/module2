@@ -123,11 +123,45 @@
     margin-right: calc(var(--bs-gutter-x) * -.5);
     margin-left: calc(var(--bs-gutter-x) * -.5);
 }
-p,h3{
-    border: 1.5px solid black;
+div{
+    position: relative;
 }
 h3{
     width: 60px;
     height: 25px;
     padding: 5px;
+    border: 1.5px solid black;
+    float:right;
+    margin-top: 5px;
+    position: absolute;
+    top: 0;
+    right: 5px; 
+    font-style:unset;
+    text-align: center;
+}
+.h1{
+    background-color:palevioletred;
+}
+.h2{
+    background-color: brown;
+    color: aliceblue;
+    font-weight: bold;
+}
+.h3{
+    background-color:rgb(245, 234, 135);
+}
+p{
+    border: 1.5px solid black;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 0;
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
 }
