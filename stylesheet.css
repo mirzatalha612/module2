@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-/*.row{
+.row{
     --bs-gutter-x:1.5rem;
     --bs-gutter-y:0;
     display: flex;
@@ -9,9 +9,6 @@
     margin-top: calc(var(--bs-gutter-y) * -1);
     margin-right: calc(var(--bs-gutter-x) * -.5);
     margin-left: calc(var(--bs-gutter-x) * -.5);
-}*/
-.row{
-    width: 100%;
 }
 @media (min-width:992px) {
     .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
@@ -147,6 +144,7 @@ p{
     padding-bottom: 10px;
     position: absolute;
     top: 0;
+    right: 0;
 }
 h3{
     width: 70px;
